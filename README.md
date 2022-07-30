@@ -1,3 +1,2 @@
 # theodinproject
-Projects made from The Odin Project
-Hello Odin!
+This project includes a couple of projects I made while studying Wed Development. There may be some projects that don't make sense and look professional, it's because I am still learning and trying to put my knowledge into practice. 
