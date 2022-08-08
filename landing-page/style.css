@@ -1,0 +1,180 @@
+/* Proper coding */
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #edede9;
+}
+
+header {
+    background-color: #6d6875;
+}
+
+div.container {
+    margin: 0;
+}
+
+.navContainer {
+    display: flex; /* To make it aligned with the navbar list items */
+    padding: 16px 20px;
+    justify-content: space-around;
+    align-items: center;    /* This made the Sign in button to center horizontally */
+}
+
+.navContainer h1 {  /* For the font properties of the text: Goodreads */
+    font-size: 32px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.navContainer a {   /* For the link properties of the text: Goodreads*/
+    text-decoration: none;
+    color: #edede9;
+}
+
+.navContainer span {
+    color: #e5989b;
+}
+
+.navContainer span:hover {
+    color: #b5838d;
+    transition: 0.5s;
+}
+
+.navContainer a:hover {
+    color: #b5838d;
+    transition: 0.5s;
+}
+.navContainer li:hover {
+    cursor: pointer;
+    color: #b5838d;
+    transition: 0.5s;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+}
+
+.navBar ul {    /* For the position/spacing between the navbar list items as a whole - inline or block */
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar-listItem {    /* For the font properties of nav list items */
+    padding: 10px 20px;
+    color: #edede9;
+}
+
+span.dashboardLoginBtn {
+    display: inline-block;
+    color: #6d6875;
+    font-weight: 600;
+    border: 1px solid hsla(0,0%,100%,0.2);
+    padding: 6px 25px 6px 25px;
+    border-radius: 16px;
+    background-color: #edede9;
+}
+
+span.dashboardLoginBtn:hover { 
+    cursor: pointer;
+    color: #edede9;
+    background-color: hsla(0,0%,100%,0.2);
+    font-weight: 400;
+    transition: color 0.5s ease-in;
+    transition: background-color 0.5s ease-in 0.5s;
+    transition: font-weight 0.5s ease-out;
+    transform: translateY(-1.5px);
+}
+
+.searchBar input[type=text] {
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 30px;
+    width: 300px;
+    border: none;
+    margin: 8px 10px;
+    padding: 1px;
+    background-color: #edede9;
+    border-radius: 15px;
+}
+
+.searchBar input[type=text]::placeholder{
+    padding: 10px;
+}
+
+/* Existing problem: Search bar padding when typing - there's no space from the border */
+/* Find good picture for heading */
+/* Main Heading */
+.mainHeading .heading {
+    display: inline-block;
+    border: 1px solid black;
+    align-items: flex-end;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.heading {
+    font-size: 58px;
+    font-weight: 900; 
+    letter-spacing: 2px;
+    color: #6d6875;
+}
+
+.mainHeading span {
+    color: #e5989b;
+}
+
+.homepageHeroAds {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.homepageHeroCaption {
+    background-color: #6d6875;
+    opacity: 80%;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.homepageHeroCaption {
+    padding: 5px;
+    color: #edede9;
+}
+
+.homepageHeroCaption a {
+    text-decoration: none;
+    color: #edede9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
