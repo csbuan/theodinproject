@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="./style.css">
         <title>Landing Page</title>
     </head>
@@ -39,27 +39,43 @@
         </header>  
     
         <!-- Main Header -->
-        <div class="homepageHeroAds">
-            <div class="homepageHeroContainer">
-                <div class="homepageHeroCaption">
-                    <span class="homepageHeroCaptionTitle">Summer Reading 2022</span>
-                    <span class="homepageHeroCaptionSeparator">&#149;</span>
-                    <a href="#">Read now on&nbsp;demand&nbsp;&#8250;</a>
-                </div>
+        <section class="">
+            <div class="section-container"> <!-- should be set to flex-->
+                <!-- <div class="section-layoutContainer">
+                    <div class="section-layout"> -->
+                        <div class="column-layout"> <!-- Should be set to grid-->
+                            <div class="homepage-header"> <!-- grid-->
+                                <div class="homepage-hero-header">
+                                    <div class="homepageHeroAds">
+                                        <div class="homepageHeroContainer">
+                                            <div class="homepageHeroCaption">
+                                                <span class="homepageHeroCaptionTitle">Summer Reading 2022</span>
+                                                <span class="homepageHeroCaptionSeparator">&#149;</span>
+                                                <a href="#">Read now on&nbsp;demand&nbsp;&#8250;</a>
+                                            </div>
+                                        </div>
+                                        <h1 class="headingTitle"><span>Online</span> Library</h1>   <!-- flex -->
+                                <div class="headingCaption">Connects &#150; people to people, people to place, people to learning.</div>
+                                <br>Discover. Connect. Inspire. 
+                                <br>Keep track of your books. Keep track of your readings!
+                            </div>
+                            <div>
+                                <a class="signUpBtn" href="#">Sign Up</button>
+                                <a class="browseBooksBtn" href="#">Browse Books</button>
+                                </div>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                    <!-- </div>
+                </div> -->
             </div>
-        </div>
-
-        <div class="mainHeading">
-            <div class="heading"><span>Online</span> Library</div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, 
-                <br>cum eum ipsa repudiandae aperiam neque quia, corrupti asperiores velit 
-                <br>cupiditate atque sed repellat. Culpa fugiat maxime reiciendis provident 
-                excepturi vitae.</p>
-        </div>
-
+        </section>
         <!-- <img src="./images/header-image.jpg" alt="books"> -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+        <!-- Bootstrap links -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script> -->
     </body>
 </html>

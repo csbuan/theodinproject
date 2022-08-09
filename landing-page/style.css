@@ -110,27 +110,23 @@ span.dashboardLoginBtn:hover {
 
 /* Existing problem: Search bar padding when typing - there's no space from the border */
 /* Find good picture for heading */
-/* Main Heading */
-.mainHeading .heading {
-    display: inline-block;
-    border: 1px solid black;
-    align-items: flex-end;
+/* Hero Ads Section */
+.section-container {
     position: relative;
-    top: 150px;
-    left: 150px;
+    display: flex;
+    justify-content: center;
 }
 
-.heading {
-    font-size: 58px;
-    font-weight: 900; 
-    letter-spacing: 2px;
-    color: #6d6875;
+.column-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: 0 16px;
 }
 
-.mainHeading span {
-    color: #e5989b;
+.homepage-header {
+    display: grid;
 }
-
 .homepageHeroAds {
     display: flex;
     position: relative;
@@ -154,6 +150,40 @@ span.dashboardLoginBtn:hover {
     text-decoration: none;
     color: #edede9;
 }
+
+/* Main Heading */
+.mainHeading  {
+    position: relative;
+    top: 145px;
+    left: 150px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    color: #6d6875;
+    margin: 5px 0;
+    font-size: 1.5em;
+}   
+
+.mainHeading .headingTitle {
+    border: 1px solid violet;
+}
+
+.mainHeading .headingCaption {
+    position: relative;
+    top: 160px;
+} 
+.headingTitle {
+    font-size: 58px;
+    font-weight: 900; 
+    letter-spacing: 2px;
+    color: #6d6875;
+}
+
+.mainHeading span {
+    color: #e5989b;
+}
+
+
+
 
 
 
