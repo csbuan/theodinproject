@@ -35,7 +35,10 @@
     background-color: peachpuff;
     border: 1px solid black;
 } */
-
+html {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -56,38 +59,115 @@ body {
 }
 
 .header {
-    background-color: #edede9;
-    opacity: 50%;
+    background-color: #ffffff;
     color: #735d78;
     border-bottom: 1px solid #735d78;
-    grid-row: 1 / 5;
-    grid-column: 4 / span 9;
+    grid-row: 1 / 7;
+    grid-column: 3 / span 10;
+    display: flex;
 }
 
 .dashboard {
     background: #735d78;
     color: #edede9;
     grid-row: 1 / 38;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
 } 
 
 .maincontent {
     background-color: #edede9;
     color: #735d78;
-    grid-row: 5 / 38;
-    grid-column: 4 / span 9;
+    grid-row: 7 / 38;
+    grid-column: 3 / span 10;
 }
 
-/* .navbar {
+/* Dashboard */
+.logo {
     display: flex;
-} */
+    padding: 10px 10px 10px 3px;
+    margin: 20px 20px 15px 20px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.navbar div {
+    display: flex;
+    padding: 10px;
+} 
 
 .icons-navbar img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    padding-left: 25px;
 }
 
 .icons-navbar a {
     text-decoration: none;
     color: #edede9;
+    padding-left: 25px;
+    font-size: 15px;
+    display: block;
+    align-self: center; /* Used to align the text in center of the flexbox */
+    font-weight: 400;
+}
+
+#icons-bottom-1 {
+    margin-top: 50px;
+}
+
+/* Header */
+.searchBar {
+    height: 30px;
+    padding: 10px 10px 0px 10px;
+    border: none;
+    display: flex;
+    position: relative;
+    top: 70px;
+    width: 500px;
+}
+
+.searchBar input[type=text] {
+    width: 450px;
+    border: none;
+}
+
+.searchBar input[type=text]::placeholder {
+    padding: 10px;
+    display: flex;
+    margin: 8px 10px 8px 0px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #edede9;
+}
+
+.searchBar img {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    display: flex;
+    align-self: center;
+    /* display: flex;
+    position: relative;
+    top: 61px; */
+}
+
+.headerBtns {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    position: relative;
+    top: 60px;
+}
+
+.header-btn {
+    margin: 20px 0px 0px ;
+    padding: 10px 25px;
 }

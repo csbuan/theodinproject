@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container-desktop">
-        <div class="container">
-            <div class="header">Header</div>
-            <div class="dashboard">
+        <div class="container">     <!-- Container for the entire webpage -->
+            <div class="dashboard"> <!-- Start of Navbar -->
                 <div class="logo">
+                    <img src="./images/dashboard.png" alt="dashboard">
                     <h1>Dashboard</h1>
                 </div>
 
@@ -22,7 +25,7 @@
                         <a href="#">Home</a>
                     </div>
                     <div class="icons-navbar">
-                        <img src="./images/account.png" alt="profile">
+                        <img src="./images/profile.png" alt="profile">
                         <a href="#">Profile</a>
                     </div>
                     <div class="icons-navbar">
@@ -34,29 +37,48 @@
                         <a href="#">History</a>
                     </div>
                     <div class="icons-navbar">
-                        <img src="./images/clipboard.png" alt="task">
+                        <img src="./images/task.png" alt="task">
                         <a href="#">Tasks</a>
                     </div>
                     <div class="icons-navbar">
                         <img src="./images/community.png" alt="community">
                         <a href="#">Community</a>
                     </div>
-                    <div class="icons-navbar">
-                        <img src="./images/setting.png" alt="setting">
+                    <div class="icons-navbar" id="icons-bottom-1">
+                        <img src="./images/settings.png" alt="setting">
                         <a href="#">Settings</a>
                     </div>
-                    <div class="icons-navbar">
+                    <div class="icons-navbar" id="icons-bottom-2">
                         <img src="./images/support.png" alt="support">
                         <a href="#">Support</a>
                     </div>
-                    <div class="icons-navbar">
-                        <img src="./images/policy.png" alt="privacy">
+                    <div class="icons-navbar" id="icons-bottom-3">
+                        <img src="./images/privacy.png" alt="privacy">
                         <a href="#">Privacy</a>
-                    </div>
-                    
+                    </div>   
+                </div>
+            </div>                  <!-- End of Navbar -->
+            
+            <div class="header">
+                <div class="searchBar">
+                    <img src="./images/search-bar.png" alt="searchbar">
+                    <input class="search" type="text" placeholder="Search here">
                 </div>
 
+                <div class="headerBtns">
+                    <button class="header-btn">New</button>
+                    <button class="header-btn">Upload</button>
+                    <button class="header-btn">Share</button>
+                </div>
             </div>
+
+
+
+
+
+
+
+
             <div class="maincontent">Main Content</div>
             <!-- <div class="footer">Footer</div> -->
         </div>
